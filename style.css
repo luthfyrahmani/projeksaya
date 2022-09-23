@@ -1,0 +1,216 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+    border-radius: 20px;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+nav img {
+    border-color: black;
+    margin: 10px;
+    width: 100px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+nav p {
+    margin: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+nav ul {
+    margin-top: 35px;
+    margin-left: 700px;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+nav ul li a:hover {
+    transition: all ease-in-out .3s;
+    padding: 12px 10px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.headmain {
+    margin-top: 80px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.headmain img {
+    width: 250px;
+    border-radius: 20px;
+    margin-left: 200px;
+}
+
+.first-teks {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 50px;
+    display: block;
+    width: 500px;
+}
+
+.bodymain {
+    margin-top: 100px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.second-teks {
+    margin-left: 200px;
+    width: 500px;
+    display: block;
+}
+
+.bodylist {
+    position: relative;
+    width: 800px;
+    height: 280px;
+    display: block;
+    padding-left: 50px;
+}
+
+.bodylist .row-c-3 {
+    display: flex;
+}
+
+.bodylist .row-c-3 span {
+    padding: 10px 15px;
+    margin: 5px;
+    font-weight: 700;
+    border: 1px;
+    border-style: solid;
+    border-radius: 12px;
+    font-size: 14px;
+}
+
+.endmain {
+    margin-top: 50px;
+}
+
+.endmain h2 {
+    margin-left: 200px;
+}
+
+.endmain-content {
+    margin-left: 200px;
+    display: flex;
+}
+
+.thirdteks {
+    margin-left: 100px;
+    width: 600px;
+}
+
+.profile img {
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+.profile p {
+    text-align: center;
+    font-weight: 500;
+}
+
+.maininput {
+    border: solid 1px;
+    display: flex;
+    width: 900px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.maininput h2    {
+    margin-top: 150px;
+    margin-left: 30px;
+    margin-right: 50px;
+    width: 900px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+form {
+    margin-top: 40px;
+}
+
+form p {
+    float: left;
+    width: 39%;
+    margin-right: 50px;
+}
+
+form input {
+    background-color: beige;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    padding-left: 20px;
+}
+
+form label {
+    display: block;
+}
+
+form textarea {
+    background-color: beige;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+button {
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    margin-left: 120px;
+    margin-top: 250px;
+    width: 100px;
+    display: flexbox;
+}
+
+.footer-list ul {
+    margin-top: 50px;
+    display: flex;
+    float: right;
+    margin-right: 230px;
+}
+
+.footer-list ul li {
+    color: gray;
+    font-weight: 700;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.footer p {
+    font-weight: 500;
+    color: gray;
+    margin-top: 200px;
+    text-align: center;
+}
